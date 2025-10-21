@@ -4,7 +4,7 @@
 - Many of these snippets make use of my [aliases](https://github.com/gianlucatruda/dotfiles/blob/master/.config/.aliases), [bash functions](https://github.com/gianlucatruda/dotfiles/blob/master/.config/.functions), and [scripts](https://github.com/gianlucatruda/dotfiles/tree/master/scripts) from [my dotfiles](https://github.com/gianlucatruda/dotfiles).
 
 >[!WARNING]
-> DISCLAIMER: This is mainly a resource for myself, made public for my own easy access and maintenance. This is for educational purposes and I accept no liabilities for any inaccuracies or for the misuse of any information presented here. If you (or I) messed something up you may violate laws or terms of service, have your security compromised, or otherwise get in trouble. These are notes for reference, so DO NOT copy-paste things you don't understand.
+> DISCLAIMER: This is mainly a resource for myself, made public for my own easy access and maintenance. This is for educational purposes and I accept no liabilities for any inaccuracies or for the misuse of any information presented here. If you (or I) messed something up you may violate laws or terms of service, have your security compromised, or otherwise get in trouble. These are notes for reference, so DO NOT copy-paste things you don't understand. You must read and accept the [license](LICENSE).
 
 ---
 
