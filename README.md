@@ -1138,7 +1138,12 @@ except Exception as e:
     - You can see if something is a power of 2 with: `n > 0 and (n & (n - 1)) = 0`
     - Kernighan's algorithm for counting set bits
 
-Set git committer email to normal public one for current repo: 
+**Set git committer email to normal public one for current repo**:
 ```bash
 git config user.email "<name@email.com>"
+```
+
+**Mark all github notifications as done (clears spam) from `gh` CLI**:
+```bash
+gh api --method PUT /notifications
 ```
