@@ -1147,3 +1147,20 @@ git config user.email "<name@email.com>"
 ```bash
 gh api --method PUT /notifications
 ```
+---
+
+tmux has 5 built-in layouts, all via `prefix + M-<n>` (Meta/Alt key) or by running `select-layout <name>`:
+
+  ┌────────────┬───────────────────────────────┬───────────────────────────────────────┐
+  │ Keybinding │            Command            │                Effect                 │
+  ├────────────┼───────────────────────────────┼───────────────────────────────────────┤
+  │ prefix M-1 │ select-layout even-horizontal │ Equal width, side by side             │
+  ├────────────┼───────────────────────────────┼───────────────────────────────────────┤
+  │ prefix M-2 │ select-layout even-vertical   │ Equal height, stacked                 │
+  ├────────────┼───────────────────────────────┼───────────────────────────────────────┤
+  │ prefix M-3 │ select-layout main-horizontal │ One large pane on top, rest below     │
+  ├────────────┼───────────────────────────────┼───────────────────────────────────────┤
+  │ prefix M-4 │ select-layout main-vertical   │ One large pane on left, rest on right │
+  ├────────────┼───────────────────────────────┼───────────────────────────────────────┤
+  │ prefix M-5 │ select-layout tiled           │ Grid (best for many panes)            │
+  └────────────┴───────────────────────────────┴───────────────────────────────────────┘
