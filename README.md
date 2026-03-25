@@ -1164,3 +1164,24 @@ tmux has 5 built-in layouts, all via `prefix + M-<n>` (Meta/Alt key) or by runni
   ├────────────┼───────────────────────────────┼───────────────────────────────────────┤
   │ prefix M-5 │ select-layout tiled           │ Grid (best for many panes)            │
   └────────────┴───────────────────────────────┴───────────────────────────────────────┘
+
+**Use Bash strict mode**
+
+```bash
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Optional: provide a helpful error message
+trap 'echo "Error on line $LINENO"; exit 1' ERR
+```
+
+What it does:
+- -e / errexit: exit if any command fails
+- -u / nounset: exit on unset variables
+- -o pipefail: pipelines fail if any command in the pipeline fails
+
+Optional: adjust IFS if needed:
+```bash
+IFS=$'\n\t'
+```
+
