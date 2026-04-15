@@ -1290,3 +1290,22 @@ How Often Is the Team Firefighting
 ```sh
 git log --oneline --since="1 year ago" | grep -iE 'revert|hotfix|emergency|rollback'
 ```
+
+**Timing commands on macOS**
+
+Use `time` when you just want elapsed/runtime numbers:
+
+```sh
+time sleep 3
+/usr/bin/time sleep 3
+```
+
+Both show timing data such as real, user, and sys time.
+
+Use `/usr/bin/time -l` when you also want resource usage details:
+
+```sh
+/usr/bin/time -l sleep 3
+```
+
+On macOS, `-l` adds profiling-style stats like maximum resident set size, page reclaims, page faults, and context switches, which is useful when you are comparing not just how long something took, but also how much CPU and memory pressure it created.
